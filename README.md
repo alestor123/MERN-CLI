@@ -4,6 +4,7 @@
 <img src="https://img.shields.io/github/license/alestor123/MERN-CLI" 
 alt=issues >
 <a href="https://github.com/alestor123/MERN-CLI/issues"><img src="https://img.shields.io/github/issues-raw/alestor123/MERN-CLI"></a>
+<a href="https://www.npmjs.com/package/quick-create-mern"><img src="https://img.shields.io/npm/v/quick-create-mern"></a>
 
 </p>
 

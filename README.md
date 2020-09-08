@@ -1,6 +1,6 @@
 <h1 align=center> QUICK-CREATE-MERN </h1>
 <p align=center >
-<img src="https://komarev.com/ghpvc/?username=alestor123" alt=views >
+<img src="https://komarev.com/ghpvc/?username=quick-create-mern" alt=views >
 <img src="https://img.shields.io/github/license/alestor123/MERN-CLI" 
 alt=issues >
 <a href="https://github.com/alestor123/MERN-CLI/issues"><img src="https://img.shields.io/github/issues-raw/alestor123/MERN-CLI"></a>

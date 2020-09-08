@@ -9,6 +9,21 @@ if (!name || name.match(/[<>:"\/\\|?*\x00-\x1F]/)) {
         Usage: quick-create-mern name-of-app  
       `);
 }
+runCommand('git', ['clone', repoURL, name])
+  .then(() => {
+    return runCommand('rm', ['-rf', `${name}/.git`]);
+  }).then(() => {
+    console.log('Installing dependencies...');
+    return runCommand('npm', ['install'], {
+      cwd: process.cwd() + '/' + name
+    });
+  }).then(() => {
+    console.log('Done! 🏁');
+    console.log('');
+    console.log('To get started:');
+    console.log('cd', name);
+    console.log('npm run dev');
+  });
 
 
       

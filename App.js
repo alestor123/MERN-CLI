@@ -2,7 +2,7 @@
 
 var { spawn } = require('child_process'),
     name = process.argv[2],
-repoURL = 'https://github.com/alestor123/MERN-CLI.git';
+repoURL = 'https://github.com/alestor123/MERN-APP-EXAMPLE.git';
 if (!name || name.match(/[<>:"\/\\|?*\x00-\x1F]/)) {
         return console.log(`
         Invalid directory name.

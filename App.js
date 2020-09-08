@@ -18,7 +18,7 @@ runCommand('git', ['clone', repoURL, name])
       cwd: process.cwd() + '/' + name
     });
   }).then(() => {
-    console.log('Done! 🏁');
+    console.log('Done! 🚀 🚀 🏁');
     console.log('');
     console.log('To get started:');
     console.log('cd', name);
